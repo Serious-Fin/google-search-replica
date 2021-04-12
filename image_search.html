@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!--Navigation Bar-->
+        <div id="nav_bar">
+            <!--Box in which both links are stored-->
+            <div id="link_box">
+                <!--Search link-->
+                <div class="link_div">
+                    <a href="index.html">Search</a>
+                </div>
+
+                <!--Advanced search link-->
+                <div class="link_div">
+                    <a href="advanced_search.html">Advanced Search</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Google logo space-->
+        <div id="logo_box">
+            <img class="google_logo" src="Images/google_logo.jpg" alt="Google Logo">
+        </div>
+        
+        
+        <!--Input box with both buttons-->
+        <div id="search_box">
+            <form style="height: 500px;" action="https://google.com/search">
+                <!--Input box-->
+                <input id="input_field" type="text" name="q" autocomplete="off">
+                <input type="hidden" name="tbm" value="isch">
+
+                <!--Div for centering buttons-->
+                <div id="button_div">
+                    <!--Serch button-->
+                    <input class="button_style" type="submit" value="Google Search">
+                    <!--"Feeling lucky" button-->
+                    <input class="button_style" type="submit" value="I'm feeling lucky">
+                </div>
+            </form>
+        </div>
+        
+
+    </body>
+</html>

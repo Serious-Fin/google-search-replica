@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!--Navigation Bar-->
+        <div id="nav_bar_advanced" style="border-bottom: 1px solid rgba(0, 0, 0, 0.11);">
+            <!--Mini google logo-->
+            <img id="mini_google_logo" src="Images/google_logo.jpg" alt="Google Logo">
+            
+            <!--Box in which both links are stored-->
+            <div id="link_box">
+                <!--Search link-->
+                <div class="link_div">
+                    <a href="index.html">Search</a>
+                </div>
+
+                <!--Image search link-->
+                <div class="link_div">
+                    <a href="image_search.html">Image Search</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Advanced Search Text-->
+        <div id="top_text_div">
+            <p id="top_text">Advanced Search</p>
+        </div>
+
+        <!--MAIN DIV-->
+        <div id="main_div">
+            <form action="https://google.com/search">
+                <!--All these words input-->
+                <div class="one_line">
+                    <p class="text_type">All of these words</p>
+                    <input class="input_type" type="text" name="as_q" autocomplete="off">
+                </div>
+
+                <!--Exact word or a phrase-->
+                <div class="one_line">
+                    <p class="text_type">Exact word or a phrase</p>
+                    <input class="input_type" type="text" name="as_epq" autocomplete="off">
+                </div>
+
+                <!--Any of these words-->
+                <div class="one_line">
+                    <p class="text_type">Any of these words</p>
+                    <input class="input_type" type="text" name="as_oq" autocomplete="off">
+                </div>
+
+                <!--None of these words-->
+                <div class="one_line">
+                    <p class="text_type">None of these words</p>
+                    <input class="input_type" type="text" name="as_eq" autocomplete="off">
+                </div>
+
+                <!--Submit button-->
+                <div class="one_line">
+                    <input class="button_style" type="submit" value="Google Search" style="float: left;">
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
