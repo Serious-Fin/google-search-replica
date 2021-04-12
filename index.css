@@ -120,6 +120,18 @@ a {
     justify-content: space-around;
 }
 
+.one_line_sections_text{
+    height: 50px;
+    width: 150px;
+    /*display: flex;
+    justify-content: space-around;*/
+}
+
+.one_line_sections_input{
+    height: 50px;
+    width: 556px;
+}
+
 .text_type {
     font-family: Arial, sans-serif;
     font-size: 14px;
